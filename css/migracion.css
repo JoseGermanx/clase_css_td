@@ -1,0 +1,38 @@
+
+.color-rojo {
+color: red;
+}
+.contenedor-1{
+     font-size: 20px;
+}
+
+.parrafo-1 {
+    background-color: yellow; text-align: center;
+}
+
+#enlace {
+    text-decoration: underline; background-color: lightblue;
+}
+
+#titulo-principal {
+    background-color: gray;
+    color: white;
+}
+
+.parrafo-2 {
+    color: green; background-color: yellow;
+}
+
+.texto-especial {
+    background-color: pink;
+}
+
+.contenedor-2 {
+    color: orange;
+    background-color: gray;
+}
+
+.parrafo-3 {
+    color: white;
+    background-color: black;
+}
