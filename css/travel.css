@@ -1,0 +1,46 @@
+
+
+
+/* Es es un comentario que no quiero que se me olvide */
+
+
+header {
+    background-color: rgb(66, 65, 65);
+}
+
+h1 {
+    font-weight: 900;
+    color: rgb(230, 230, 223);
+}
+
+article.tarjeta-destino p {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+
+button {
+    background-color: rgb(58, 58, 238);
+    font-size: medium;
+    border: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    padding: 5px;
+    color: beige;
+}
+
+article#oferta-limitada button {
+    background-color: orange;
+}
+
+.urgente {
+    background-color: blueviolet !important;
+}
+
+.texto-aviso {
+    background-color: orange;
+}
+
+h2 {
+
+}
