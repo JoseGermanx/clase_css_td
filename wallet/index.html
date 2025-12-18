@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Ejemplo</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fa-solid fa-wallet"></i> Wallet
+            </div>
+            
+            <!-- Input invisible (el cerebro del menú) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+            
+            <!-- Botón Hamburguesa (label del input) -->
+            <label for="nav-toggle" class="menu-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#" class="nav-link">Inicio</a></li>
+                    <li><a href="#" class="nav-link">Mis Activos</a></li>
+                    <li><a href="#" class="nav-link">Historial</a></li>
+                    <li><a href="#" class="nav-link">Configuración</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Resumen -->
+        <section class="account-summary">
+            <div>
+                <div class="balance-label">Balance Total Estimado</div>
+                <div class="balance-amount">$12,450.00 USD</div>
+                <div class="account-actions">
+                    <button class="btn btn-secondary btn-glass">
+                        <i class="fa-solid fa-arrow-up"></i> Enviar
+                    </button>
+                    <button class="btn btn-secondary btn-glass">
+                        <i class="fa-solid fa-arrow-down"></i> Recibir
+                    </button>
+                </div>
+            </div>
+            <div class="summary-decoration">
+                <i class="fa-brands fa-bitcoin"></i>
+            </div>
+        </section>
+
+        <!-- Activos -->
+        <section class="assets-section">
+            <h2><i class="fa-solid fa-coins"></i> Mis Criptomonedas</h2>
+            <div class="asset-grid">
+                <div class="asset-card">
+                    <div class="asset-info">
+                        <div class="crypto-icon icon-btc"><i class="fa-brands fa-bitcoin"></i></div>
+                        <div>
+                            <h4>Bitcoin</h4>
+                            <small class="text-muted">BTC</small>
+                        </div>
+                    </div>
+                    <div class="asset-value">
+                        <h4>$34,200.00</h4>
+                        <small class="text-success">+2.4%</small>
+                    </div>
+                </div>
+                <div class="asset-card">
+                    <div class="asset-info">
+                        <div class="crypto-icon icon-eth"><i class="fa-brands fa-ethereum"></i></div>
+                        <div>
+                            <h4>Ethereum</h4>
+                            <small class="text-muted">ETH</small>
+                        </div>
+                    </div>
+                    <div class="asset-value">
+                        <h4>$1,850.00</h4>
+                        <small class="text-danger">-0.8%</small>
+                    </div>
+                </div>
+                <div class="asset-card">
+                    <div class="asset-info">
+                        <div class="crypto-icon icon-usdt"><i class="fa-solid fa-dollar-sign"></i></div>
+                        <div>
+                            <h4>Tether</h4>
+                            <small class="text-muted">USDT</small>
+                        </div>
+                    </div>
+                    <div class="asset-value">
+                        <h4>$1.00</h4>
+                        <small class="text-success">+0.01%</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transacción -->
+        <section class="transaction-area">
+            <h2><i class="fa-solid fa-money-bill-transfer"></i> Transacción Rápida</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label>Seleccionar Moneda</label>
+                    <select class="form-control">
+                        <option>Bitcoin (BTC)</option>
+                        <option>Ethereum (ETH)</option>
+                        <option>USDT</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Dirección de Destino</label>
+                    <input type="text" class="form-control" placeholder="Ej: 0x123..." required>
+                </div>
+                <div class="form-group">
+                    <label>Monto</label>
+                    <input type="number" class="form-control" placeholder="0.00" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                    Confirmar Envío
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Soporte</a>
+            <a href="#">Términos</a>
+            <a href="#">Privacidad</a>
+        </div>
+        <p>&copy; 2023 NWallet Financial Tech. Todos los derechos reservados.</p>
+        <p><small class="text-muted">Contacto: soporte@awallet.com</small></p>
+    </footer>
+    
+</body>
+</html>
